@@ -1,13 +1,7 @@
-:root {
-    --bg-dark: #b0c1d4;
-    --bg-light: #d6dfeb;
-    --border-color: #657991;
-}
-
 #calculator {
     background-color: var(--bg-dark);
     width: 450px;
-    height: 650px;
+    height: 700px;
     border-radius: 20px;
     border: 4px solid var(--border-color);
     box-shadow: none;
@@ -16,9 +10,4 @@
   
 #calculator:hover {
     box-shadow: rgba(0, 0, 0, 0.75) 0px 3px 8px;
-}
-
-#grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
 }
